@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS db_stik;
+
+CREATE TABLE tbl_siswa (
+  siswa_id INT AUTO_INCREMENT PRIMARY KEY,
+  siswa_nis VARCHAR(20) NOT NULL,
+  siswa_nama VARCHAR(100) NOT NULL,
+  siswa_kelas VARCHAR(10) NOT NULL,
+  siswa_jurusan VARCHAR(100) NOT NULL
+);
